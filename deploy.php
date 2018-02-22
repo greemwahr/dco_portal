@@ -22,7 +22,7 @@ define('SSH_USERNAME', 'dco1');
 // filename for the keypair to use -- no need to change this if you follow the readme instructions
 define('KEYPAIR_NAME', 'deploy');
 // the passphrase for your keypair
-define('KEYPAIR_PASSPHRASE', '');
+define('KEYPAIR_PASSPHRASE', 'ipnxnigeria');
 
 // END OF CONFIGURATION OPTIONS
 
