@@ -101,8 +101,8 @@ try {
     $authSuccess = ssh2_auth_pubkey_file(
         $sshSession,
         SSH_USERNAME,
-        '/home/'.SSH_USERNAME.'/.ssh/'.KEYPAIR_NAME.'.pub',
-        '/home/'.SSH_USERNAME.'/.ssh/'.KEYPAIR_NAME,
+        '/home2/'.SSH_USERNAME.'/.ssh/'.KEYPAIR_NAME.'.pub',
+        '/home2/'.SSH_USERNAME.'/.ssh/'.KEYPAIR_NAME,
         KEYPAIR_PASSPHRASE
     );
     if (!$authSuccess) {
