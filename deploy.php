@@ -8,7 +8,7 @@
  */
  
 // random string of characters; must match the "Secret" defined in your GitHub webhook
-define('GITHUB_SECRET', 'qwertyuiop1234567890');
+define('GITHUB_SECRET', '9peDxksVT>Un7YYy');
 // name of the git branch that you're deploying
 define('GITHUB_BRANCH', 'master');
 // your email address, where you'll receive notices of deploy successes/failures
@@ -22,7 +22,7 @@ define('SSH_USERNAME', 'dco1');
 // filename for the keypair to use -- no need to change this if you follow the readme instructions
 define('KEYPAIR_NAME', 'deploy');
 // the passphrase for your keypair
-define('KEYPAIR_PASSPHRASE', 'abc123');
+define('KEYPAIR_PASSPHRASE', '');
 
 // END OF CONFIGURATION OPTIONS
 
